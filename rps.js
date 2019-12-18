@@ -25,21 +25,21 @@ if (userChoice === computerPicked) {
 }
 
 if (userChoice === 'paper') {
-    if (computerChoice === 'rock') {
+    if (computerPicked === 'rock') {
         document.write('You win!')
     } else if (computerPicked === 'scissors') {
         document.write('The computer won!')
     }
 }
 if (userChoice === 'rock') {
-    if (computerChoice === 'paper') {
+    if (computerPicked === 'paper') {
         document.write('The computer won!')
     } else if (computerPicked === 'scissors') {
         document.write('You win!')
     }
 }
 if (userChoice === 'scissors') {
-    if (computerChoice === 'paper') {
+    if (computerPicked === 'paper') {
         document.write('You win!')
     } else if (computerPicked === 'rock') {
         document.write('The computer won!')
